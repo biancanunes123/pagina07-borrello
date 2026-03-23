@@ -13,9 +13,6 @@ const OfferSection = () => {
               <li className="flex justify-between py-3 border-b border-dashed border-background/30 font-semibold text-background">
                 Super Aula: Leia Sua Aura (Prática) <span className="line-through text-background/50">R$ 297</span>
               </li>
-              <li className="flex justify-between py-3 border-b border-dashed border-background/30 font-semibold text-background">
-                Bônus: Pré-diagnóstico Individualizado <span className="text-success">INCLUSO</span>
-              </li>
             </ul>
             <p className="text-sm text-background/80"><strong>Valor Total do Pacote:</strong> R$ 397</p>
           </div>
