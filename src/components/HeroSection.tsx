@@ -14,11 +14,21 @@ const HeroSection = () => {
           Onde o DIAGNÓSTICO encontra o TRATAMENTO técnico
         </span>
 
+        <a
+          href="#ingresso"
+          className="inline-block bg-gradient-to-br from-primary to-[#f1d592] text-primary-foreground py-5 px-10 rounded-lg font-extrabold text-lg uppercase w-full max-w-[650px] shadow-[0_10px_30px_rgba(212,175,55,0.2)] hover:-translate-y-1 hover:shadow-[0_15px_50px_rgba(212,175,55,0.4)] transition-all no-underline text-center mb-10"
+        >
+          QUERO DIAGNOSTICAR E TRATAR MEU CAMPO R$47
+          <span className="block text-xs mt-2 opacity-80 tracking-wider font-semibold text-primary-foreground">
+            Vagas limitadas . Evento ao vivo 04/04 . Sem replay gratuito
+          </span>
+        </a>
+
         <p className="text-lg text-muted-foreground max-w-[850px] mx-auto mb-10">
           O pêndulo e o bastão de cromoterapia não são simples ferramentas de equilíbrio. São instrumentos de <strong className="text-foreground">diagnóstico e tratamento de alta precisão</strong> como um exame de imagem para o seu campo áurico, permitindo o tratamento assertivo na sequência.
         </p>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10 border-t border-b border-primary/20 py-5">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 border-t border-b border-primary/20 py-5">
           {[
             { label: "Onde?", value: "Online ao Vivo" },
             { label: "Quando?", value: "04 de Abril" },
@@ -31,16 +41,6 @@ const HeroSection = () => {
             </div>
           ))}
         </div>
-
-        <a
-          href="#ingresso"
-          className="inline-block bg-gradient-to-br from-primary to-[#f1d592] text-primary-foreground py-5 px-10 rounded-lg font-extrabold text-lg uppercase w-full max-w-[650px] shadow-[0_10px_30px_rgba(212,175,55,0.2)] hover:-translate-y-1 hover:shadow-[0_15px_50px_rgba(212,175,55,0.4)] transition-all no-underline text-center"
-        >
-          QUERO DIAGNOSTICAR E TRATAR MEU CAMPO R$47
-          <span className="block text-xs mt-2 opacity-80 tracking-wider font-semibold text-primary-foreground">
-            Vagas limitadas . Evento ao vivo 04/04 . Sem replay gratuito
-          </span>
-        </a>
       </div>
     </section>
   );
