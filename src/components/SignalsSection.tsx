@@ -9,9 +9,11 @@ const SignalsSection = () => {
   return (
     <section className="py-20">
       <div className="text-center mb-12">
-        <span className="bg-secondary text-secondary-foreground px-4 py-1.5 rounded-full text-[0.7rem] uppercase tracking-widest font-bold inline-block mb-5 border border-foreground/20">
-          A Raiz Energética
-        </span>
+        <div className="mb-5">
+          <span className="bg-secondary text-secondary-foreground px-4 py-1.5 rounded-full text-[0.7rem] uppercase tracking-widest font-bold inline-block border border-foreground/20">
+            A Raiz Energética
+          </span>
+        </div>
         <h2 className="text-3xl md:text-4xl border-b-2 border-primary inline-block pb-2.5 mb-5">
           Sinais de Campo Bloqueado
         </h2>
