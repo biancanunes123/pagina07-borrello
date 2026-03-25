@@ -14,7 +14,7 @@ const OfferSection = () => {
                 Super Aula: Leia Sua Aura (Prática) <span className="line-through text-background/50">R$ 297</span>
               </li>
             </ul>
-            <p className="text-sm text-background/80"><strong>Valor Total do Pacote:</strong> <span className="line-through">R$ 397</span></p>
+            
           </div>
 
           {/* Right side */}
