@@ -24,7 +24,7 @@ const OfferSection = () => {
               <span className="text-xl text-foreground">R$</span>47
             </div>
             <span className="text-lg my-4 block opacity-80">
-              ou 9x de <strong className="text-2xl text-primary">R$ 8,56</strong>
+              ou 6x de <strong className="text-2xl text-primary">R$ 8,82</strong>
             </span>
             <a
               href="https://pay.hotmart.com/Q104997284V?off=0dk6j0qn"
