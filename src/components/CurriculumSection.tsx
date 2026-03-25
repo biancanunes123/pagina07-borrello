@@ -21,7 +21,7 @@ const CurriculumSection = () => {
     <section className="py-24">
       <div className="container">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl border-b-2 border-primary inline-block pb-2.5 mb-5">Cronograma 04/04</h2>
+          <h2 className="text-3xl md:text-4xl border-b-2 border-primary inline-block pb-2.5 mb-5">Cronograma 06/04</h2>
           <p className="text-muted-foreground">Mapeamento sistemático focado em Diagnóstico + Tratamento.</p>
         </div>
 
