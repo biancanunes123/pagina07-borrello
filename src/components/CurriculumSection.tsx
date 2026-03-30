@@ -42,7 +42,7 @@ const CurriculumSection = () => {
         <div className="text-center mt-12">
           <a
             href="#ingresso"
-            className="inline-block bg-gradient-to-br from-primary to-[#f1d592] text-primary-foreground py-5 px-10 rounded-lg font-extrabold text-lg uppercase w-full max-w-[650px] shadow-[0_10px_30px_rgba(212,175,55,0.2)] hover:-translate-y-1 hover:shadow-[0_15px_50px_rgba(212,175,55,0.4)] transition-all no-underline text-center"
+            className="inline-block bg-gradient-to-br from-primary to-[#f1d592] text-primary-foreground py-5 px-10 rounded-lg font-extrabold text-lg uppercase w-full max-w-[650px] shadow-[0_10px_30px_rgba(212,175,55,0.2)] hover:-translate-y-1 hover:shadow-[0_15px_50px_rgba(212,175,55,0.4)] transition-transform no-underline text-center"
           >
             GARANTIR MEU ACESSO AO MÉTODO COMPLETO
           </a>
