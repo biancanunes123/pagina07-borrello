@@ -34,6 +34,10 @@ const MechanismSection = () => {
             src="https://rvjqvmzydzcrhqhefrgi.supabase.co/storage/v1/object/public/ai-images/generated/ai-1774123660360-ebae7u.png"
             className="w-full rounded-2xl shadow-[0_0_50px_rgba(74,30,158,0.3)]"
             alt="Energia Aura Técnica Prof. Francisco Borrello"
+            loading="lazy"
+            decoding="async"
+            width="600"
+            height="600"
           />
         </div>
       </div>
