@@ -1,10 +1,12 @@
+import { lazy, Suspense } from "react";
 import HeroSection from "@/components/HeroSection";
 import FastStats from "@/components/FastStats";
-import SignalsSection from "@/components/SignalsSection";
-import MechanismSection from "@/components/MechanismSection";
-import CurriculumSection from "@/components/CurriculumSection";
-import OfferSection from "@/components/OfferSection";
-import FooterSection from "@/components/FooterSection";
+
+const SignalsSection = lazy(() => import("@/components/SignalsSection"));
+const MechanismSection = lazy(() => import("@/components/MechanismSection"));
+const CurriculumSection = lazy(() => import("@/components/CurriculumSection"));
+const OfferSection = lazy(() => import("@/components/OfferSection"));
+const FooterSection = lazy(() => import("@/components/FooterSection"));
 
 const Index = () => {
   return (
@@ -12,12 +14,16 @@ const Index = () => {
       <HeroSection />
       <div className="container">
         <FastStats />
-        <SignalsSection />
+        <Suspense fallback={null}>
+          <SignalsSection />
+        </Suspense>
       </div>
-      <MechanismSection />
-      <CurriculumSection />
-      <OfferSection />
-      <FooterSection />
+      <Suspense fallback={null}>
+        <MechanismSection />
+        <CurriculumSection />
+        <OfferSection />
+        <FooterSection />
+      </Suspense>
     </div>
   );
 };
