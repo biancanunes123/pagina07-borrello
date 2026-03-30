@@ -58,9 +58,21 @@
     font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
     overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeSpeed;
   }
 
   h1, h2, h3 {
     font-family: 'Playfair Display', serif;
+    text-rendering: optimizeLegibility;
+  }
+
+  img {
+    content-visibility: auto;
+  }
+
+  section {
+    contain: layout style paint;
   }
 }
