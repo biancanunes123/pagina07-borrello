@@ -20,7 +20,7 @@ const HeroSection = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          QUERO DIAGNOSTICAR E TRATAR MEU CAMPO R$47
+          QUERO DIAGNOSTICAR E TRATAR MEU CAMPO R$77
           <span className="block text-xs mt-2 opacity-80 tracking-wider font-semibold text-primary-foreground">
             Vagas limitadas . Evento ao vivo 06/04 . Sem replay gratuito
           </span>
